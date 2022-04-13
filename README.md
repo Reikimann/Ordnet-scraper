@@ -5,3 +5,14 @@ A simple web scraper that scrapes ordnet.dk (Danish web dictionary) for informat
 !["example image"](example.png 'example of the word "plante"')
 
 When the search is done, the user will be presented with the opportunity to search again or terminate the process.
+
+
+## Requirements
+
+- [Python3](https://www.python.org/downloads/)
+- Python module Beautifulsoup4
+
+´´´bash
+# Installing beautifulsoup (Needs python)
+$ pip install beautifulsoup4
+´´´

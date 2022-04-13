@@ -1,4 +1,4 @@
-# Ordnet dictionary web scraper
+# Ordnet.dk dictionary web scraper
 
 A simple web scraper that scrapes ordnet.dk (Danish web dictionary) for information, regarding the searched term.
 

@@ -76,7 +76,7 @@ def word_search():
         print(etymologi)
     except Exception:
         print(f"\n{blueB}Etymologi:{reset}")
-        print("Denne hjemmeside kender ikke oprindelsen af dette ord.")
+        print("Ordnet kender ikke oprindelsen af dette ord.")
 
 
     print(f"\n{blueB}Definition(er):{reset}")
@@ -91,7 +91,7 @@ def word_search():
         pass
     except Exception:
         print(f"\n{blueB}Definition(er):{reset}")
-        print("Denne hjemmeside kender ingen definitioner af dette ord.")
+        print("Ordnet kender ingen definitioner for dette ord.")
 
 
     try:
@@ -102,7 +102,7 @@ def word_search():
         print(synonym_section_items.capitalize())
     except Exception:
         print(f"\n{blueB}Synonym(er):{reset}")
-        print("Denne hjemmeside kender ingen synonymer for dette ord.")
+        print("Ordnet kender ingen synonymer for dette ord.")
 
     link = f"https://ordnet.dk/ddo/ordbog?query={search_word}"
     print(f"\n{grey}{link}{reset}\n")

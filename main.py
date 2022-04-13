@@ -107,7 +107,7 @@ def word_search():
     link = f"https://ordnet.dk/ddo/ordbog?query={search_word}"
     print(f"\n{grey}{link}{reset}\n")
 
-    wantContinue = input("Skal du undersøge endnu et ord? (J/n): ").strip().lower()
+    wantContinue = input("Vil du undersøge endnu et ord? (J/n): ").strip().lower()
     if wantContinue == "n":
         return
     else:

@@ -12,7 +12,3 @@ When the search is done, the user will be presented with the opportunity to sear
 - [Python3](https://www.python.org/downloads/)
 - Python module Beautifulsoup4
 
-´´´bash
-# Installing beautifulsoup (Needs python)
-$ pip install beautifulsoup4
-´´´

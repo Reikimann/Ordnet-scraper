@@ -1,6 +1,6 @@
-# Ordnet_dict
+# Ordnet dictionary web scraper
 
-A simple webscraper that scrapes ordnet.dk (Danish web dictionary) for information, regarding the searched term.
+A simple web scraper that scrapes ordnet.dk (Danish web dictionary) for information, regarding the searched term.
 
 !["example image"](example.png 'example of the word "plante"')
 

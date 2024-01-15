@@ -1,6 +1,6 @@
 # MIT License
 
-# Copyright (c) 2022 Reikimann
+# Copyright (c) 2024 Reikimann
 
 # Permission is hereby granted, free of charge, to any person obtaining a copy
 # of this software and associated documentation files (the "Software"), to deal
@@ -111,4 +111,5 @@ def word_search():
         word_search()
 
 
-word_search()
+if __name__ == "__main__":
+    word_search()
